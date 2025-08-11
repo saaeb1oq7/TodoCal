@@ -82,3 +82,23 @@ button:active{
 .Todo:hover{
     background-color: rgb(241, 66, 66);
 }
+
+@media (max-width:700px) {
+    body{
+        font-size: 12px;
+    }
+
+   #calculator{
+        font-size: 12px;
+    } 
+
+    #display{
+        font-size: 3rem;
+    }
+
+    button{
+        width: 65px;
+        height: 65px;
+    }
+    
+}

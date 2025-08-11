@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(62, 26, 95);
+}
+#calculator{
+    font-family: Arial, sans-serif;
+    background-color: rgb(36, 36, 36);
+    border-radius: 15px;
+    max-width: 525px;
+    overflow: hidden;
+}
+#display{
+    width: 100%;
+    padding: 20px;
+    font-size: 5rem;
+    text-align: left;
+    border: none;
+    background-color: rgb(20, 20, 20);
+    color: white;
+}
+
+#keys{
+    display: grid;
+    grid-template-columns: repeat(4, 115px);
+    padding: 25px;
+    gap: 10px;
+}
+
+button{
+    width: 100px;
+    height: 90px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(49, 49, 49);
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(61, 61, 61);
+}
+
+button:active{
+    background-color: rgb(90, 89, 89);
+}
+
+.operator-btn{
+    background-color: blueviolet;
+}
+
+.operator-btn:hover{
+    background-color: rgb(161, 61, 255);
+}
+
+.operator-btn:active{
+    background-color: rgb(177, 94, 255);
+}
+
+.equals-btn{
+    background-color: rgb(62, 65, 228);
+}
+
+.equals-btn:hover{
+    background-color: rgb(86, 89, 255);
+}
+
+.equals-btn:active{
+    background-color: rgb(105, 107, 255);
+}
+
+.Todo{
+    width: 150px;
+    background-color: rgb(226, 58, 58);
+}
+
+.Todo:hover{
+    background-color: rgb(241, 66, 66);
+}

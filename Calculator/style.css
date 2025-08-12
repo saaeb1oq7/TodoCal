@@ -90,10 +90,17 @@ button:active{
 
    #calculator{
         font-size: 12px;
+        max-width: 80%;
     } 
 
     #display{
         font-size: 3rem;
+    }
+
+    #keys{
+        grid-template-columns: repeat(4, 65px);
+        padding: 15px;
+        gap: 5px;
     }
 
     button{
